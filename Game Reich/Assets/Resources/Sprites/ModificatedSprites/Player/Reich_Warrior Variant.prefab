@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7191176576187662797
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1133790794804030461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: ammoDisplay
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790794804030461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: maxUsedAmmo
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790794804030461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: maxAmmoDisplay
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790794804030461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: weaponPicDisplay
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790794804030461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: weaponNameDisplay
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790795550105695, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: ammoDisplay
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790795550105695, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: maxUsedAmmo
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790795550105695, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: maxAmmoDisplay
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790795550105695, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: weaponPicDisplay
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790795550105695, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: weaponNameDisplay
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796595301904, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: ammoDisplay
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796595301904, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: maxUsedAmmo
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796595301904, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: maxAmmoDisplay
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796595301904, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: weaponPicDisplay
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796595301904, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: weaponNameDisplay
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796844685457, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796844685457, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796844685458, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796844685458, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796844685461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796844685461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796844685461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796844685461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796844685461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796844685461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796844685461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796844685461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796844685461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796844685461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796844685461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796844685470, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_Name
+      value: Reich_Warrior
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}

@@ -21,12 +21,6 @@ public class ShootingPlayer : MonoBehaviour
     public GameObject weaponInHand;
     public GameObject weaponEternal;
 
-    //pickup
-    [SerializeField] GameObject pistol;
-    [SerializeField] GameObject rifle;
-    [SerializeField] GameObject automatic;
-    //pickup
-
     public Text ammoDisplay;
     public Text maxAmmoDisplay;
     public Text weaponNameDisplay;
@@ -95,14 +89,5 @@ public class ShootingPlayer : MonoBehaviour
             currentAmmo = maxUsedAmmo;
         }
         isReloading = false;
-    }
-    public void PickUpAdder()
-    {
-        if (gameObject.CompareTag("Rifle"))
-            maxAmmo += 5;
-        if (gameObject.CompareTag("Pistol"))
-            maxAmmo += 8;
-        if (gameObject.CompareTag("Automatic"))
-            maxAmmo += 32;
     }
 }
