@@ -1,0 +1,555 @@
+fileFormatVersion: 2
+guid: e7f341137b7194b40b56d85572d8d8db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4604582213412378188
+    second: Reich_Soldier_0
+  - first:
+      213: -9002356065242993128
+    second: Reich_Soldier_1
+  - first:
+      213: -3133373186118017243
+    second: Reich_Soldier_2
+  - first:
+      213: -67659471081690145
+    second: Reich_Soldier_3
+  - first:
+      213: 4399499565776169937
+    second: Reich_Soldier_4
+  - first:
+      213: 2803148804044488372
+    second: Reich_Soldier_5
+  - first:
+      213: 6305277033727866425
+    second: Reich_Soldier_6
+  - first:
+      213: 2275580024887622626
+    second: Reich_Soldier_7
+  - first:
+      213: 7340535610486006724
+    second: Reich_Soldier_8
+  - first:
+      213: -2185931117757080761
+    second: Reich_Soldier_9
+  - first:
+      213: 8015928529521588926
+    second: Reich_Soldier_10
+  - first:
+      213: -3175257788611021781
+    second: Reich_Soldier_11
+  - first:
+      213: 3352798171766723126
+    second: Reich_Soldier_12
+  - first:
+      213: -7434866461702427468
+    second: Reich_Soldier_13
+  - first:
+      213: -8525818738268312617
+    second: Reich_Soldier_14
+  - first:
+      213: 6344887291092689528
+    second: Reich_Soldier_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Reich_Soldier_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46d6818023c6ef30800000000000000
+      internalID: 4604582213412378188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reich_Soldier_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 57
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.48449218, y: 0.45347658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81eab9dead4311380800000000000000
+      internalID: -9002356065242993128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reich_Soldier_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 57
+        width: 14
+        height: 6
+      alignment: 9
+      pivot: {x: 0.48006138, y: 0.4302152}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f93b440b50484d0800000000000000
+      internalID: -3133373186118017243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reich_Soldier_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 56
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb2c7cc110af0ff0800000000000000
+      internalID: -67659471081690145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reich_Soldier_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 36
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: -0.5}
+        - {x: -9, y: -3.5}
+        - {x: -9, y: -6.5}
+        - {x: -6, y: -8.5}
+        - {x: 3, y: -8.5}
+        - {x: 8, y: -7.5}
+        - {x: 9, y: -3.5}
+        - {x: 7, y: -0.5}
+        - {x: 6, y: 4.5}
+        - {x: 3, y: 8.5}
+        - {x: -3, y: 8.5}
+        - {x: -6, y: 4.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbe297ab892e0d30800000000000000
+      internalID: 4399499565776169937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reich_Soldier_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 38
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bef1ad4cf8c6e620800000000000000
+      internalID: 2803148804044488372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reich_Soldier_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 37
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 2.5}
+        - {x: -3, y: -2.5}
+        - {x: -2, y: -8.5}
+        - {x: -1, y: -9.5}
+        - {x: 3, y: -9.5}
+        - {x: 5, y: -7.5}
+        - {x: 5, y: 3.5}
+        - {x: 1, y: 7.5}
+        - {x: -1, y: 8.5}
+        - {x: -5, y: 8.5}
+        - {x: -5, y: 8.5}
+        - {x: -5, y: 5.5}
+      - - {x: 5, y: -7.5}
+        - {x: 5, y: -7.5}
+        - {x: 5, y: -7.5}
+        - {x: 5, y: -7.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93637cd2e08d08750800000000000000
+      internalID: 6305277033727866425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reich_Soldier_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 40
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -0.5}
+        - {x: 1, y: -5.5}
+        - {x: -1, y: -7.5}
+        - {x: -5, y: -7.5}
+        - {x: -6, y: -6.5}
+        - {x: -6, y: -0.5}
+        - {x: -5, y: 1.5}
+        - {x: 1, y: 6.5}
+        - {x: 5, y: 7.5}
+        - {x: 6, y: 4.5}
+        - {x: 5, y: 2.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebb661e9fb749f10800000000000000
+      internalID: 2275580024887622626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reich_Soldier_8
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 29
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3af14fe32ded560800000000000000
+      internalID: 7340535610486006724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reich_Soldier_9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 28
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bdd9eda330aa1e0800000000000000
+      internalID: -2185931117757080761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reich_Soldier_10
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 27
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebabd03078c4e3f60800000000000000
+      internalID: 8015928529521588926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reich_Soldier_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 14
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b243c8f4dd73fe3d0800000000000000
+      internalID: -3175257788611021781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reich_Soldier_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 16
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6321cbf5c28878e20800000000000000
+      internalID: 3352798171766723126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reich_Soldier_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 4
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bce2cd385c02d890800000000000000
+      internalID: -7434866461702427468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reich_Soldier_14
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 3
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbe52e77053ea980800000000000000
+      internalID: -8525818738268312617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reich_Soldier_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8726875ef519d0850800000000000000
+      internalID: 6344887291092689528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
