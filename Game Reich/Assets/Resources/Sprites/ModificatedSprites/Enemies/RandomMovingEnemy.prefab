@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  deathEffect: {fileID: 6491291985296456582, guid: 1677f7483c0dc264795d03434a88bc9c, type: 3}
+  deathEffect: {fileID: 7779900181088863920, guid: dd6e3ede84f1be749b793b6ed579d60f, type: 3}
   player: {fileID: 0}
 --- !u!50 &1813129784777267444
 Rigidbody2D:
