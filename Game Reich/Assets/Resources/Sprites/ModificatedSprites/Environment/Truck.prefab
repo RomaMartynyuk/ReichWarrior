@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3179691731754737185}
   - component: {fileID: 3179691731754737184}
   - component: {fileID: 3179691731754737187}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Truck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  finalPos: {x: 50, y: 2.11, z: 1}
+  timeDeath: 35
 --- !u!95 &3179691731754737185
 Animator:
   serializedVersion: 3
