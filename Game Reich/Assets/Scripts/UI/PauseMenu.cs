@@ -46,6 +46,6 @@ public class PauseMenu : MonoBehaviour
     public void Restart()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Millitary Base");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

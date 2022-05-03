@@ -20,4 +20,8 @@ public class TruckMoving : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        collision.gameObject.GetComponent<PlayerMovement>().TakeDamage(100);
+    }
 }

@@ -14,6 +14,9 @@ public class PlayerMovement : MonoBehaviour
     public int currentHealth;
     public HealthBar healthBar;
 
+    [SerializeField] GameObject deadFab;
+    [SerializeField] AudioClip deadSound;
+
     private void Start()
     {
         currentHealth = maxHealth;
@@ -25,6 +28,11 @@ public class PlayerMovement : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+
+        if(currentHealth <= 0)
+        {
+            Die();
+        }
     }
     void FixedUpdate()
     {
@@ -36,8 +44,15 @@ public class PlayerMovement : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
+        GetComponent<AudioSource>().PlayOneShot(deadSound);
+
         currentHealth -= damage;
 
         healthBar.SetHealth(currentHealth);
+    }
+    void Die()
+    {
+        Instantiate(deadFab, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 }
