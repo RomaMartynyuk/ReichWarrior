@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] GameObject deadFab;
     [SerializeField] AudioClip deadSound;
+    [SerializeField] GameObject DeathScreen;
 
     private void Start()
     {
@@ -53,6 +54,7 @@ public class PlayerMovement : MonoBehaviour
     void Die()
     {
         Instantiate(deadFab, transform.position, Quaternion.identity);
+        DeathScreen.SetActive(true);
         Destroy(gameObject);
     }
 }

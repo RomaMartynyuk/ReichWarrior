@@ -8,6 +8,8 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private Transform playerTransform;
     [SerializeField] private string playerTag;
     [SerializeField] private float cameraSpeed;
+    [SerializeField] private GameObject player;
+    [SerializeField] private AudioClip deadsound;
 
     private void Awake()
     {
@@ -40,5 +42,17 @@ public class CameraFollow : MonoBehaviour
             
             this.transform.position = pos;
         }
+        if (!player)
+        {
+            StartCoroutine(DieSong());
+        }
+    }
+    IEnumerator DieSong()
+    {
+        GetComponent<AudioSource>().PlayOneShot(deadsound);
+
+        yield return new WaitForSeconds(5);
+
+        Destroy(deadsound);
     }
 }
