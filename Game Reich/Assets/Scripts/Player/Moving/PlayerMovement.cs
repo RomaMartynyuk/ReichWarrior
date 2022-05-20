@@ -10,10 +10,12 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movement;
     Vector2 mousePos;
 
+    [Header("Health")]
     public int maxHealth = 100;
     public int currentHealth;
     public HealthBar healthBar;
 
+    [Header("Dead")]
     [SerializeField] GameObject deadFab;
     [SerializeField] AudioClip deadSound;
     [SerializeField] GameObject DeathScreen;

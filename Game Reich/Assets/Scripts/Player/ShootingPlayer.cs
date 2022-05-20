@@ -4,11 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 public class ShootingPlayer : MonoBehaviour
 {
+    [Header("Bullet")]
     public Transform firePoint;
     public GameObject bulletPrefab;
     public AudioClip FireSound;
     public AudioClip ReloadSound;
 
+    [Header("Ammo")]
     public int maxAmmo = 30;
     private int currentAmmo;
     public int maxUsedAmmo;
@@ -18,9 +20,10 @@ public class ShootingPlayer : MonoBehaviour
     public string weaponName;
     public Sprite weaponPic;
 
-    public GameObject weaponInHand;
-    public GameObject weaponEternal;
+    private GameObject weaponInHand;
+    private GameObject weaponEternal;
 
+    [Header("Showing")]
     public Text ammoDisplay;
     public Text maxAmmoDisplay;
     public Text weaponNameDisplay;

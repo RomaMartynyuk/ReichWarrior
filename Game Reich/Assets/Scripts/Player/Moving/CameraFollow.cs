@@ -10,6 +10,11 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private float cameraSpeed;
     [SerializeField] private GameObject player;
     [SerializeField] private AudioClip deadsound;
+    [Header("Limits")]
+    [SerializeField] private float leftLimit;
+    [SerializeField] private float rightLimit;
+    [SerializeField] private float bottomLimit;
+    [SerializeField] private float topLimit;
 
     private void Awake()
     {
@@ -46,6 +51,7 @@ public class CameraFollow : MonoBehaviour
         {
             StartCoroutine(DieSong());
         }
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, leftLimit, rightLimit), Mathf.Clamp(transform.position.y, bottomLimit, topLimit), transform.position.z);
     }
     IEnumerator DieSong()
     {
@@ -54,5 +60,13 @@ public class CameraFollow : MonoBehaviour
         yield return new WaitForSeconds(5);
 
         Destroy(deadsound);
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(new Vector2(leftLimit, topLimit), new Vector2(rightLimit, topLimit));
+        Gizmos.DrawLine(new Vector2(leftLimit, bottomLimit), new Vector2(rightLimit, bottomLimit));
+        Gizmos.DrawLine(new Vector2(leftLimit, topLimit), new Vector2(leftLimit, bottomLimit));
+        Gizmos.DrawLine(new Vector2(rightLimit, topLimit), new Vector2(rightLimit, bottomLimit));
     }
 }
