@@ -4,21 +4,11 @@ using UnityEngine;
 
 public class TankAim : MonoBehaviour
 {
-    [SerializeField] private Camera cam;
-    Vector2 mousePos;
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private float offset;
+    private void Update()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-    }
-    private void FixedUpdate()
-    {
-        
+        Vector3 aim = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        float rotationZ = Mathf.Atan2(aim.y, aim.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0f, 0f, rotationZ + offset) ;
     }
 }
