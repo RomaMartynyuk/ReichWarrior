@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 1396963953}
   m_Layer: 0
   m_Name: Head
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -342,7 +342,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: 0.99997807, w: -0.006630987}
   m_LocalPosition: {x: 0.188, y: -0.006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 2}
-  m_Children: []
+  m_Children:
+  - {fileID: 1665021083}
   m_Father: {fileID: 1386230814}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.76}
@@ -359,6 +360,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: 1
+  bulletTankPreFab: {fileID: 5357080251149992923, guid: 60183df9b0ddfba4db9cf7bafc7efeb1, type: 3}
+  firePoint: {fileID: 1665021083}
+  bulletForce: 20
 --- !u!212 &1396963954
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -509,3 +513,33 @@ MonoBehaviour:
   playerPos: {fileID: 1386230814}
   playerTag: 
   speed: 3
+--- !u!1 &1665021082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1665021083}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1665021083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665021082}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.769, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1396963952}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
