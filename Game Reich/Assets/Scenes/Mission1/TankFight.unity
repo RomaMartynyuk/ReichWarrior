@@ -277,7 +277,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2840760652479349146, guid: 249a5a18de7f42845ab515e3738aad53, type: 3}
+  m_Sprite: {fileID: -4993527809142191085, guid: 14e4fb1d64b28f542829623d60e0d152, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -340,7 +340,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396963951}
   m_LocalRotation: {x: -0, y: -0, z: 0.99997807, w: -0.006630987}
-  m_LocalPosition: {x: 0.188, y: -0.006, z: 0}
+  m_LocalPosition: {x: 0.183, y: -0.006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 2}
   m_Children:
   - {fileID: 1665021083}
@@ -360,7 +360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: 1
-  bulletTankPreFab: {fileID: 5357080251149992923, guid: 60183df9b0ddfba4db9cf7bafc7efeb1, type: 3}
+  bulletTankPreFab: {fileID: 913175245222613872, guid: d99871a2d9fe2814f9fe56a5c9d64b17, type: 3}
   firePoint: {fileID: 1665021083}
   bulletForce: 20
 --- !u!212 &1396963954
@@ -403,7 +403,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 4686410594855287614, guid: 249a5a18de7f42845ab515e3738aad53, type: 3}
+  m_Sprite: {fileID: 8121669782433527260, guid: 14e4fb1d64b28f542829623d60e0d152, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -537,7 +537,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1665021082}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.769, y: 0, z: 0}
+  m_LocalPosition: {x: 1.541, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1396963952}
