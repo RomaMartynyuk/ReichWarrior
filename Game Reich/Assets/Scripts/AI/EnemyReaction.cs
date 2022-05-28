@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class EnemyReaction : MonoBehaviour
 {
-    [SerializeField] private Transform playerPos;
+    [SerializeField] protected Transform playerPos;
     public float range;
     public GameObject bulletPrefab;
     public Transform firePoint;
     public float bulletForce;
 
-    private float timeBtwShots;
+    protected float timeBtwShots;
     public float startTimeBtwShots;
     void Start()
     {
@@ -35,7 +35,7 @@ public class EnemyReaction : MonoBehaviour
             }
         }
     }
-    void Shooting()
+    protected void Shooting()
     {
         Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
     }
