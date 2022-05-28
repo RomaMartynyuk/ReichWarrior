@@ -7,6 +7,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1133790794804030438, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_Name
+      value: MP38
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790794804030456, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6329442620915037874, guid: fa3c290c98b113d4b9fa7d625a0df31a, type: 3}
+    - target: {fileID: 1133790794804030458, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: bf2194872dff80d46aa4dca03da524c0, type: 3}
+    - target: {fileID: 1133790794804030459, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3d6f4c4a3a00deb428e4ba6c5671a7ef, type: 3}
+    - target: {fileID: 1133790794804030461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: FireSound
+      value: 
+      objectReference: {fileID: 8300000, guid: bf2194872dff80d46aa4dca03da524c0, type: 3}
+    - target: {fileID: 1133790794804030461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: weaponPic
+      value: 
+      objectReference: {fileID: 2622985780375447886, guid: fa3c290c98b113d4b9fa7d625a0df31a, type: 3}
+    - target: {fileID: 1133790794804030461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: weaponName
+      value: MP-38
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790794804030461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: ReloadSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 3d6f4c4a3a00deb428e4ba6c5671a7ef, type: 3}
     - target: {fileID: 1133790794804030461, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
       propertyPath: ammoDisplay
       value: 
@@ -27,6 +59,34 @@ PrefabInstance:
       propertyPath: weaponNameDisplay
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1133790795550105692, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_Volume
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790795550105692, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 68d9453371400df4296146ea7910d7e0, type: 3}
+    - target: {fileID: 1133790795550105693, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_Volume
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790795550105693, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 753e39fa94264954691df6593c435a4d, type: 3}
+    - target: {fileID: 1133790795550105695, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: FireSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 753e39fa94264954691df6593c435a4d, type: 3}
+    - target: {fileID: 1133790795550105695, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: reloadTime
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790795550105695, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: ReloadSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 68d9453371400df4296146ea7910d7e0, type: 3}
     - target: {fileID: 1133790795550105695, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
       propertyPath: ammoDisplay
       value: 
@@ -47,6 +107,10 @@ PrefabInstance:
       propertyPath: weaponNameDisplay
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1133790795887764308, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_Name
+      value: MP38 FP
+      objectReference: {fileID: 0}
     - target: {fileID: 1133790796595301904, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
       propertyPath: ammoDisplay
       value: 
@@ -66,6 +130,14 @@ PrefabInstance:
     - target: {fileID: 1133790796595301904, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
       propertyPath: weaponNameDisplay
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796595301906, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133790796595301907, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+      propertyPath: m_Volume
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1133790796844685457, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
       propertyPath: cam
@@ -129,7 +201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1133790796844685470, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
       propertyPath: m_Name
-      value: Reich_Warrior
+      value: Reich_Warrior Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}

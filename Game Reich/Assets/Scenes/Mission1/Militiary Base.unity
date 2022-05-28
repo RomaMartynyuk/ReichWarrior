@@ -17766,6 +17766,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 94f92e36d76cb1b4c808ed299e59a0f9, type: 3}
     - target: {fileID: 7813807227532021725, guid: 67401d2527d9fe14d84e3c93dd6ac6c1, type: 3}
+      propertyPath: maxAmmo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7813807227532021725, guid: 67401d2527d9fe14d84e3c93dd6ac6c1, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -17773,6 +17777,10 @@ PrefabInstance:
       propertyPath: ammoDisplay
       value: 
       objectReference: {fileID: 488395036}
+    - target: {fileID: 7813807227532021725, guid: 67401d2527d9fe14d84e3c93dd6ac6c1, type: 3}
+      propertyPath: maxUsedAmmo
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7813807227532021725, guid: 67401d2527d9fe14d84e3c93dd6ac6c1, type: 3}
       propertyPath: maxAmmoDisplay
       value: 
@@ -17786,9 +17794,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2032681928}
     - target: {fileID: 7813807228281973296, guid: 67401d2527d9fe14d84e3c93dd6ac6c1, type: 3}
+      propertyPath: maxAmmo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7813807228281973296, guid: 67401d2527d9fe14d84e3c93dd6ac6c1, type: 3}
       propertyPath: ammoDisplay
       value: 
       objectReference: {fileID: 488395036}
+    - target: {fileID: 7813807228281973296, guid: 67401d2527d9fe14d84e3c93dd6ac6c1, type: 3}
+      propertyPath: maxUsedAmmo
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7813807228281973296, guid: 67401d2527d9fe14d84e3c93dd6ac6c1, type: 3}
       propertyPath: maxAmmoDisplay
       value: 
@@ -17802,9 +17818,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2032681928}
     - target: {fileID: 7813807228642238866, guid: 67401d2527d9fe14d84e3c93dd6ac6c1, type: 3}
+      propertyPath: maxAmmo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7813807228642238866, guid: 67401d2527d9fe14d84e3c93dd6ac6c1, type: 3}
       propertyPath: ammoDisplay
       value: 
       objectReference: {fileID: 488395036}
+    - target: {fileID: 7813807228642238866, guid: 67401d2527d9fe14d84e3c93dd6ac6c1, type: 3}
+      propertyPath: maxUsedAmmo
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7813807228642238866, guid: 67401d2527d9fe14d84e3c93dd6ac6c1, type: 3}
       propertyPath: maxAmmoDisplay
       value: 
