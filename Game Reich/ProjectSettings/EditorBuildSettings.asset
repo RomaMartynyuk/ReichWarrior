@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mission1/BorderFight.unity
     guid: b343b1a5b029a78458a20578dc316537
+  - enabled: 1
+    path: Assets/Scenes/Mission1/TankFight.unity
+    guid: d3a57a60452923c43b128aeca1388811
   m_configObjects: {}

@@ -6,7 +6,9 @@ public class TankAim : MonoBehaviour
 {
     [SerializeField] private float offset;
     [SerializeField] private GameObject bulletTankPreFab;
+
     [SerializeField] private Transform firePoint;
+
     [SerializeField] private float bulletForce;
     private bool shootReady;
     private void Start()
