@@ -10,6 +10,9 @@ public class TankAim : MonoBehaviour
     [SerializeField] private Transform firePoint;
 
     [SerializeField] private float bulletForce;
+
+    [SerializeField] private AudioSource shootSound;
+    [SerializeField] private AudioSource reloadSound;
     private bool shootReady;
     private void Start()
     {
@@ -28,6 +31,7 @@ public class TankAim : MonoBehaviour
     void Shoot()
     {
         GameObject bullet = Instantiate(bulletTankPreFab, firePoint.position, firePoint.rotation);
+        shootSound.Play();
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
         shootReady = false;
@@ -35,6 +39,8 @@ public class TankAim : MonoBehaviour
     IEnumerator Wait()
     {
         Shoot();
+
+        reloadSound.Play();
 
         yield return new WaitForSeconds(7);
 

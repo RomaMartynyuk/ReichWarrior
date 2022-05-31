@@ -7,6 +7,7 @@ public class TankMovingAndRotation : MonoBehaviour
     [Header("TankSettings")]
     [SerializeField] public float rotationSpeed = 3.5f;
     [SerializeField] public float accelerationSpeed = 30.0f;
+    Animation Anim;
 
     //Local variables
     float accelerationInput = 0;
@@ -21,14 +22,17 @@ public class TankMovingAndRotation : MonoBehaviour
 
     void Update()
     {
-        
+        if(accelerationInput > 1)
+        {
+            Anim.Play("MovingAnimation", PlayMode.StopAll);
+        }
     }
     private void FixedUpdate()
     {
         EngineForce();
         Steering();
     }
-    void EngineForce()
+    public void EngineForce()
     {
         Vector2 engineForceVector = transform.right * accelerationInput * accelerationSpeed;
 

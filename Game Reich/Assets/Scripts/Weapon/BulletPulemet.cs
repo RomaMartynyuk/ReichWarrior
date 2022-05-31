@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class BulletPulemet : MonoBehaviour
 {
-   //public GameObject hitEffect;
+    public GameObject hitEffect;
     public float speed;
     public float time;
     public float distance;
     public int damage = 10;
     public LayerMask whatIsSolid;
-    //void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
-    //    Destroy(effect, 5f);
-    //    Destroy(gameObject);
-    //}
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+        Destroy(effect, 5f);
+        Destroy(gameObject);
+    }
     private void Update()
     {
         RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.up, distance, whatIsSolid);

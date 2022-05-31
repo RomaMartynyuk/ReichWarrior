@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1777164866397169002}
   - component: {fileID: 2585892651309297280}
   - component: {fileID: -3885274701351099786}
+  - component: {fileID: 4409681360866440079}
   m_Layer: 0
   m_Name: Bullet 1
   m_TagString: Untagged
@@ -144,6 +145,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f435590c5ac2af45bc7fbaa2c3db72f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  time: 0.5
+  distance: 0.5
+  damage: 20
+  whatIsSolid:
+    serializedVersion: 2
+    m_Bits: 320
+--- !u!114 &4409681360866440079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913175245222613872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1da95d2d97702284888cd86b08160424, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitEffect: {fileID: 3912425473520814127, guid: 84df71f5de682434eb93b9dc1e3bf8ea, type: 3}
   speed: 10
   time: 0.5
   distance: 0.5
