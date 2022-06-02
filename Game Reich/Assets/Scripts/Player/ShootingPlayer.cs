@@ -19,6 +19,7 @@ public class ShootingPlayer : MonoBehaviour
     public float bulletForce = 20f;
     public string weaponName;
     public Sprite weaponPic;
+    private bool reloadTimers;
 
     private GameObject weaponInHand;
     private GameObject weaponEternal;
@@ -31,6 +32,7 @@ public class ShootingPlayer : MonoBehaviour
     private void Start()
     {
         currentAmmo = maxUsedAmmo;
+        reloadTimers = true;
     }
     void Update()
     {
@@ -39,7 +41,7 @@ public class ShootingPlayer : MonoBehaviour
         weaponNameDisplay.text = weaponName.ToString();
         weaponPicDisplay.sprite = weaponPic;
 
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R) && reloadTimers)
         {
             StartCoroutine(Reload());
             return;
@@ -77,6 +79,7 @@ public class ShootingPlayer : MonoBehaviour
     IEnumerator Reload()
     {
         isReloading = true;
+        reloadTimers = false;
         GetComponent<AudioSource>().PlayOneShot(ReloadSound);
 
         yield return new WaitForSeconds(reloadTime);
@@ -92,5 +95,6 @@ public class ShootingPlayer : MonoBehaviour
             currentAmmo = maxUsedAmmo;
         }
         isReloading = false;
+        reloadTimers = true;
     }
 }

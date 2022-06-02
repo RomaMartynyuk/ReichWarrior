@@ -203,5 +203,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: Reich_Warrior Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1133790796844685459, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+--- !u!1 &7813807227379013971 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1133790796844685470, guid: 31b711bca59b55b4da457dd73d8f162d, type: 3}
+  m_PrefabInstance: {fileID: 7191176576187662797}
+  m_PrefabAsset: {fileID: 0}
+--- !u!58 &7277101978222635037
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7813807227379013971}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0903596}
+  serializedVersion: 2
+  m_Radius: 0.4096404

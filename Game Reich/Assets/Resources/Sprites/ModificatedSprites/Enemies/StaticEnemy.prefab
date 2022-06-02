@@ -115,11 +115,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPos: {fileID: 0}
-  range: 10
+  range: 6
   bulletPrefab: {fileID: 8701726149440025638, guid: 091bb1d637d8d5140903409ee21f93ba, type: 3}
   firePoint: {fileID: 3555227610729632236}
   bulletForce: 20
   startTimeBtwShots: 1
+  speed: 5
 --- !u!50 &3555227610206204794
 Rigidbody2D:
   serializedVersion: 4

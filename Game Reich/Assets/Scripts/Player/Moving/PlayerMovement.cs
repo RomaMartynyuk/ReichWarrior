@@ -17,7 +17,6 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Dead")]
     [SerializeField] GameObject deadFab;
-    [SerializeField] AudioClip deadSound;
     [SerializeField] GameObject DeathScreen;
 
     private void Start()
@@ -47,8 +46,6 @@ public class PlayerMovement : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-        GetComponent<AudioSource>().PlayOneShot(deadSound);
-
         currentHealth -= damage;
 
         healthBar.SetHealth(currentHealth);

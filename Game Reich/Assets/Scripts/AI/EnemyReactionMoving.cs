@@ -21,11 +21,13 @@ public class EnemyReactionMoving : MonoBehaviour
     public Transform[] MoveSpots;
     private int randomSpot;
     //patrolling
+    private bool knowPlayer;
     void Start()
     {
         timeBtwShots = startTimeBtwShots;
         waitTime = startWaitTime;
         randomSpot = Random.Range(0, MoveSpots.Length);
+        knowPlayer = false;
     }
 
     void Update()
@@ -35,6 +37,7 @@ public class EnemyReactionMoving : MonoBehaviour
             var direction = playerPos.position - transform.position;
             var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90f;
             transform.rotation = Quaternion.Euler(0, 0, angle);
+            knowPlayer = true;
             if(timeBtwShots <= 0)
             {
                 Shooting();
@@ -45,7 +48,17 @@ public class EnemyReactionMoving : MonoBehaviour
                 timeBtwShots-=Time.deltaTime;
             }
         }
-        
+        if (knowPlayer)
+        {
+            if (Vector2.Distance(playerPos.position, transform.position) > range && knowPlayer)
+            {
+                var direction = playerPos.position - transform.position;
+                var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90f;
+                transform.rotation = Quaternion.Euler(0, 0, angle);
+                transform.position = Vector2.MoveTowards(transform.position, playerPos.position, speed * Time.deltaTime);
+            }
+        }
+
         //mousePos = player.transform.position;
     }
     void Shooting()
@@ -76,7 +89,7 @@ public class EnemyReactionMoving : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (Vector2.Distance(playerPos.position, transform.position) >= range)
+        if (Vector2.Distance(playerPos.position, transform.position) >= range && !knowPlayer)
         {
             Patrolling();
         }

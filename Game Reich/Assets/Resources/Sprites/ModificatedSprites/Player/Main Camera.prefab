@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4979140475106830663}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -103,6 +103,10 @@ MonoBehaviour:
   cameraSpeed: 5
   player: {fileID: 0}
   deadsound: {fileID: 8300000, guid: 94f92e36d76cb1b4c808ed299e59a0f9, type: 3}
+  leftLimit: 0
+  rightLimit: 0
+  bottomLimit: 0
+  topLimit: 0
 --- !u!82 &4979140475106830714
 AudioSource:
   m_ObjectHideFlags: 0

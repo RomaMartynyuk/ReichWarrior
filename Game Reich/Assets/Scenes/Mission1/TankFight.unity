@@ -1530,24 +1530,76 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1030723040}
+    - target: {fileID: 1366881654, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1105.067
+      objectReference: {fileID: 0}
+    - target: {fileID: 1366881654, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 197.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1366881654, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -133.2499
+      objectReference: {fileID: 0}
     - target: {fileID: 1366881655, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
       propertyPath: m_Text
       value: "\u0427\u0430\u0441 \u043F\u0440\u043E\u0440\u0432\u0430\u0442\u0438
         \u043E\u0434\u0438\u043D \u0437 \u043E\u0441\u043D\u043E\u0432\u043D\u0438\u0445
         \u043F\u0440\u043E\u043F\u0443\u0441\u043A\u043D\u0438\u0445 \u043F\u0443\u043D\u043A\u0442\u0456\u0432,
         \u0449\u043E\u0431 \u043F\u0440\u043E\u0434\u043E\u0432\u0436\u0438\u0442\u0438
-        \u043D\u0430\u0448 \u043D\u0430\u0441\u0442\u0443\u043F, \u0449\u043E\u0431
-        \u0446\u0435 \u0437\u0434\u0456\u0439\u0441\u043D\u0438\u043B\u043E\u0441\u044C
+        \u043D\u0430\u0448 \u043D\u0430\u0441\u0442\u0443\u043F, \u0434\u043B\u044F
+        \u0442\u043E\u0433\u043E \u0449\u043E\u0431 \u0446\u0435 \u0437\u0434\u0456\u0439\u0441\u043D\u0438\u043B\u043E\u0441\u044C
         \u0448\u0432\u0438\u0434\u0448\u0435 \u043F\u043E\u0442\u0440\u0456\u0431\u043D\u043E
         \u0437\u0430\u0434\u0456\u044F\u0442\u0438 \u0442\u0430\u043D\u043A\u0438.
         \u041F\u0440\u043E\u0440\u0432\u0456\u0442\u044C \u043E\u0431\u043E\u0440\u043E\u043D\u0443
         \u0442\u0430 \u0437\u043D\u0438\u0449\u0456\u0442\u044C \u0443\u0441\u0456\u0445
-        \u0432\u043E\u0440\u043E\u0433\u0456\u0432.\n\n\n\u041D\u0435 \u0437\u0430\u0431\u0443\u0432\u0430\u0439\u0442\u0435
+        \u0432\u043E\u0440\u043E\u0433\u0456\u0432."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197142589926880311, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textUa
+      value: "\u041D\u0435 \u0437\u0430\u0431\u0443\u0432\u0430\u0439\u0442\u0435
         \u0449\u043E \u043C\u0438 \u043C\u0443\u0441\u0438\u043C\u043E \u043F\u0440\u043E\u0440\u0432\u0430\u0442\u0438
         \u043E\u0431\u043E\u0440\u043E\u043D\u0443 \u0456 \u0437\u043D\u0438\u0449\u0438\u0442\u0438
         \u041F\u041F\u041E, \u0449\u043E\u0431 \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A
-        \u043D\u0435 \u0437\u0430\u0432\u0430\u0436\u0430\u0432 \u041B\u044E\u0444\u0442\u0432\u0430\u0444\u0444\u0435.\n\n6:15,
-        1 \u0432\u0435\u0440\u0435\u0441\u043D\u044F 1939\u0440. "
+        \u043D\u0435 \u0437\u0430\u0432\u0430\u0436\u0430\u0432 \u041B\u044E\u0444\u0442\u0432\u0430\u0444\u0444\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197142589926880311, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textEng
+      value: Do not forget that we must break through the defenses and destroy the
+        air defenses so that the enemy does not interfere with the Luftwaffe.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197142589926880311, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textGer
+      value: "Vergessen Sie nicht, dass wir die Verteidigung durchbrechen und die
+        Luftverteidigung zerst\xF6ren m\xFCssen, damit der Feind die Luftwaffe nicht
+        st\xF6rt."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197142589926880311, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textPol
+      value: "Nie zapominajmy, \u017Ce musimy przebi\u0107 si\u0119 przez obron\u0119
+        i zniszczy\u0107 obron\u0119 powietrzn\u0105, aby wr\xF3g nie przeszkadza\u0142
+        Luftwaffe."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616504203849210464, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textUa
+      value: "6:15, 1 \u0432\u0435\u0440\u0435\u0441\u043D\u044F 1939\u0440. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616504203849210464, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textEng
+      value: '6:15, 1 September 1939 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616504203849210464, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textGer
+      value: '6:15, 1. September 1939 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616504203849210464, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textPol
+      value: "6:15, 1 wrzesie\u0144 1939 "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3889815826927856000, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: m_Text
+      value: "6:15, 1 \u0432\u0435\u0440\u0435\u0441\u043D\u044F 1939\u0440. "
       objectReference: {fileID: 0}
     - target: {fileID: 5981887065321178916, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
       propertyPath: m_Text
@@ -1649,8 +1701,58 @@ PrefabInstance:
       propertyPath: m_Text
       value: "\u221E"
       objectReference: {fileID: 0}
+    - target: {fileID: 7489234075519809613, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -437.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 8012833022642511474, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: m_Text
+      value: "\u041D\u0435 \u0437\u0430\u0431\u0443\u0432\u0430\u0439\u0442\u0435
+        \u0449\u043E \u043C\u0438 \u043C\u0443\u0441\u0438\u043C\u043E \u043F\u0440\u043E\u0440\u0432\u0430\u0442\u0438
+        \u043E\u0431\u043E\u0440\u043E\u043D\u0443 \u0456 \u0437\u043D\u0438\u0449\u0438\u0442\u0438
+        \u041F\u041F\u041E, \u0449\u043E\u0431 \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A
+        \u043D\u0435 \u0437\u0430\u0432\u0430\u0436\u0430\u0432 \u041B\u044E\u0444\u0442\u0432\u0430\u0444\u0444\u0435."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+--- !u!1 &510790450 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1366881653, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+  m_PrefabInstance: {fileID: 510790449}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &510790451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510790450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c2f353aef79134aa235b8b46cb6e37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  language: 
+  textUa: "\u0427\u0430\u0441 \u043F\u0440\u043E\u0440\u0432\u0430\u0442\u0438 \u043E\u0434\u0438\u043D
+    \u0437 \u043E\u0441\u043D\u043E\u0432\u043D\u0438\u0445 \u043F\u0440\u043E\u043F\u0443\u0441\u043A\u043D\u0438\u0445
+    \u043F\u0443\u043D\u043A\u0442\u0456\u0432, \u0449\u043E\u0431 \u043F\u0440\u043E\u0434\u043E\u0432\u0436\u0438\u0442\u0438
+    \u043D\u0430\u0448 \u043D\u0430\u0441\u0442\u0443\u043F, \u0434\u043B\u044F \u0442\u043E\u0433\u043E
+    \u0449\u043E\u0431 \u0446\u0435 \u0437\u0434\u0456\u0439\u0441\u043D\u0438\u043B\u043E\u0441\u044C
+    \u0448\u0432\u0438\u0434\u0448\u0435 \u043F\u043E\u0442\u0440\u0456\u0431\u043D\u043E
+    \u0437\u0430\u0434\u0456\u044F\u0442\u0438 \u0442\u0430\u043D\u043A\u0438. \u041F\u0440\u043E\u0440\u0432\u0456\u0442\u044C
+    \u043E\u0431\u043E\u0440\u043E\u043D\u0443 \u0442\u0430 \u0437\u043D\u0438\u0449\u0456\u0442\u044C
+    \u0443\u0441\u0456\u0445 \u0432\u043E\u0440\u043E\u0433\u0456\u0432."
+  textPol: "Nadszed\u0142 czas, aby przebi\u0107 si\u0119 przez jeden z g\u0142\xF3wnych
+    punkt\xF3w kontrolnych, aby kontynuowa\u0107 nasz\u0105 ofensyw\u0119, aby ta
+    zosta\u0142a przeprowadzona szybciej, nale\u017Cy u\u017Cy\u0107 czo\u0142g\xF3w.
+    Przebij si\u0119 przez obron\u0119 i zniszcz wszystkich wrog\xF3w."
+  textEng: It is time to break through one of the main checkpoints in order to continue
+    our offensive, in order for this to be carried out faster, tanks need to be used.
+    Break through the defenses and destroy all enemies.
+  textGer: "Es ist an der Zeit, einen der Hauptkontrollpunkte zu durchbrechen, um
+    unsere Offensive fortzusetzen, damit dies schneller durchgef\xFChrt werden kann,
+    m\xFCssen Panzer eingesetzt werden. Durchbreche die Verteidigung und zerst\xF6re
+    alle Feinde."
 --- !u!1001 &560673837
 PrefabInstance:
   m_ObjectHideFlags: 0

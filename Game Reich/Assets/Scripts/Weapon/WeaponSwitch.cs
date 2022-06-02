@@ -27,19 +27,19 @@ public class WeaponSwitch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ScrolInt == 1 || Input.GetKey(KeyCode.Alpha2))
+        if (ScrolInt == 1)
         {
             Weapon1.SetActive(false);
             Weapon2.SetActive(true);
             Weapon3.SetActive(false);
         }
-        if(ScrolInt == 2 || Input.GetKeyDown(KeyCode.Alpha3))
+        if(ScrolInt == 2)
         {
             Weapon1.SetActive(true);
             Weapon2.SetActive(false);
             Weapon3.SetActive(false);
         }
-        if(ScrolInt <= 0 || Input.GetKeyUp(KeyCode.Alpha1))
+        if(ScrolInt <= 0)
         {
             Weapon1.SetActive(false);
             Weapon2.SetActive(false);
@@ -57,5 +57,9 @@ public class WeaponSwitch : MonoBehaviour
         {
             ScrolInt -= 1;
         }
+        if(ScrolInt > 2)
+            ScrolInt = 2;
+        if(ScrolInt < 0)
+            ScrolInt = 0;
     }
 }

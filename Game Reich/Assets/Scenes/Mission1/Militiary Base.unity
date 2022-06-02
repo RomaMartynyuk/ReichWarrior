@@ -15713,6 +15713,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63713fe4ddd7bf546a8d6d19e4f5cbf4, type: 3}
+--- !u!1 &1977946400 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1366881653, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+  m_PrefabInstance: {fileID: 4680079408693649769}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1977946402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977946400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c2f353aef79134aa235b8b46cb6e37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  language: 
+  textUa: "Heil Hitler! \u0421\u043E\u043B\u0434\u0430\u0442\u0438, \u043D\u0435\u0437\u0430\u0431\u0430\u0440\u043E\u043C
+    \u0432\u0430\u0441 \u0447\u0435\u043A\u0430\u0454 \u043F\u0435\u0440\u0448\u0438\u0439
+    \u0432\u043E\u0454\u043D\u043D\u0438\u0439 \u0434\u043E\u0441\u0432\u0456\u0434,
+    \u043F\u0456\u0441\u043B\u044F \u0434\u043E\u0432\u0433\u043E\u0457 \u043F\u0456\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0438
+    \u0442\u0430 \u043E\u0447\u0456\u043A\u0443\u0432\u0430\u043D\u043D\u044F, \u043C\u0438
+    \u043D\u0430\u0440\u0435\u0448\u0442\u0456 \u0437\u0432\u0456\u043B\u044C\u043D\u0438\u043C\u043E
+    \u0434\u0430\u043D\u0446\u0438\u0433 \u0442\u0430 \u041F\u043E\u043B\u044C\u0449\u0443,
+    \u0437\u0430\u0440\u0430\u0434\u0438 \u0437\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u044F
+    \u043D\u0430\u0448\u043E\u0457 \u043D\u0430\u0446\u0456\u0457, \u0437\u0430\u0440\u0430\u0434\u0438
+    \u0444\u044E\u0440\u0435\u0440\u0430. \u041D\u0430\u043F\u0440\u0430\u0432\u043B\u044F\u0439\u0442\u0435\u0441\u044C
+    \u0443 \u0432\u0456\u0439\u0441\u044C\u043A\u043E\u0432\u0456 \u043C\u0430\u0448\u0438\u043D\u0438!   "
+  textPol: "Hej Hitlerze! \u017Bo\u0142nierze, ju\u017C nied\u0142ugo pierwsze do\u015Bwiadczenie
+    militarne, po d\u0142ugich przygotowaniach i oczekiwaniu wreszcie wyzwolimy Gda\u0144sk
+    i Polsk\u0119, dla gloryfikacji naszego narodu, dla F\xFChrera. Wsiadaj do pojazd\xF3w
+    wojskowych!   PS Mo\u017Cesz zbada\u0107 okolic\u0119, a nast\u0119pnie uda\u0107
+    si\u0119 do ci\u0119\u017Car\xF3wki.  4:35, 1 wrze\u015Bnia 1939"
+  textEng: 'Heil Hitler! Soldiers, the first military experience is waiting for you
+    soon, after a long preparation and waiting, we will finally liberate Danzig and
+    Poland, for the sake of glorifying our nation, for the sake of the Fuhrer. Get
+    in the military vehicles!   '
+  textGer: "Heil Hitler! Soldaten, bald erwartet Sie die erste milit\xE4rische Erfahrung,
+    nach langem Vorbereiten und Warten werden wir Danzig und Polen endlich befreien,
+    um der Verherrlichung unserer Nation willen, um des F\xFChrers willen. Steigen
+    Sie in die Milit\xE4rfahrzeuge!   "
 --- !u!1001 &1992949904
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17507,13 +17549,99 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 127952943}
+    - target: {fileID: 1366881654, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 209.3055
+      objectReference: {fileID: 0}
+    - target: {fileID: 1366881654, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -138.95273
+      objectReference: {fileID: 0}
+    - target: {fileID: 1366881655, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: m_Text
+      value: "Heil Hitler! \u0421\u043E\u043B\u0434\u0430\u0442\u0438, \u043D\u0435\u0437\u0430\u0431\u0430\u0440\u043E\u043C
+        \u0432\u0430\u0441 \u0447\u0435\u043A\u0430\u0454 \u043F\u0435\u0440\u0448\u0438\u0439
+        \u0432\u043E\u0454\u043D\u043D\u0438\u0439 \u0434\u043E\u0441\u0432\u0456\u0434,
+        \u043F\u0456\u0441\u043B\u044F \u0434\u043E\u0432\u0433\u043E\u0457 \u043F\u0456\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0438
+        \u0442\u0430 \u043E\u0447\u0456\u043A\u0443\u0432\u0430\u043D\u043D\u044F,
+        \u043C\u0438 \u043D\u0430\u0440\u0435\u0448\u0442\u0456 \u0437\u0432\u0456\u043B\u044C\u043D\u0438\u043C\u043E
+        \u0434\u0430\u043D\u0446\u0438\u0433 \u0442\u0430 \u041F\u043E\u043B\u044C\u0449\u0443,
+        \u0437\u0430\u0440\u0430\u0434\u0438 \u0437\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u044F
+        \u043D\u0430\u0448\u043E\u0457 \u043D\u0430\u0446\u0456\u0457, \u0437\u0430\u0440\u0430\u0434\u0438
+        \u0444\u044E\u0440\u0435\u0440\u0430. \u041D\u0430\u043F\u0440\u0430\u0432\u043B\u044F\u0439\u0442\u0435\u0441\u044C
+        \u0443 \u0432\u0456\u0439\u0441\u044C\u043A\u043E\u0432\u0456 \u043C\u0430\u0448\u0438\u043D\u0438!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242960325197388456, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textEng
+      value: Restart
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242960325197388456, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textPol
+      value: Nowo
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197142589926880311, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textUa
+      value: "P.S. \u0412\u0438 \u043C\u043E\u0436\u0435\u0442\u0435 \u043E\u0433\u043B\u044F\u043D\u0443\u0442\u0438
+        \u043C\u0456\u0441\u0446\u0435\u0432\u0456\u0441\u0442\u044C, \u0430 \u043F\u043E\u0442\u0456\u043C
+        \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u044F\u0442\u0438\u0441\u044C
+        \u0434\u043E \u0432\u0430\u043D\u0442\u0430\u0436\u0456\u0432\u043A\u0438.  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197142589926880311, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textEng
+      value: 'P.S. You can explore the area and then head to the truck.  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197142589926880311, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textGer
+      value: "P.S. Sie k\xF6nnen die Gegend erkunden und dann zum Lastwagen gehen.  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197142589926880311, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textPol
+      value: "P.S. Mo\u017Cesz zbada\u0107 okolic\u0119, a nast\u0119pnie uda\u0107
+        si\u0119 do ci\u0119\u017Car\xF3wki.  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616504203849210464, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textUa
+      value: "4:35, 1 \u0432\u0435\u0440\u0435\u0441\u043D\u044F 1939\u0440."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616504203849210464, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textEng
+      value: 4:35, September 1, 1939
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616504203849210464, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textGer
+      value: 4:35, 1. September 1939
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616504203849210464, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textPol
+      value: "4:35, 1 wrze\u015Bnia 1939"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3232519792539610342, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textEng
+      value: Main Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 3232519792539610342, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: textGer
+      value: "Hauptmen\xFC"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3889815826927856000, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: m_Text
+      value: "4:35, 1 \u0432\u0435\u0440\u0435\u0441\u043D\u044F 1939\u0440."
+      objectReference: {fileID: 0}
     - target: {fileID: 4680079409669591502, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 194987691}
+    - target: {fileID: 4730858275429461359, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -335.2
+      objectReference: {fileID: 0}
     - target: {fileID: 5981887065391735042, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5981887065391735042, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5981887065391735046, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
       propertyPath: m_Pivot.x
@@ -17598,6 +17726,17 @@ PrefabInstance:
     - target: {fileID: 5981887065391735046, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489234075519809613, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -429.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8012833022642511474, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}
+      propertyPath: m_Text
+      value: "P.S. \u0412\u0438 \u043C\u043E\u0436\u0435\u0442\u0435 \u043E\u0433\u043B\u044F\u043D\u0443\u0442\u0438
+        \u043C\u0456\u0441\u0446\u0435\u0432\u0456\u0441\u0442\u044C, \u0430 \u043F\u043E\u0442\u0456\u043C
+        \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u044F\u0442\u0438\u0441\u044C
+        \u0434\u043E \u0432\u0430\u043D\u0442\u0430\u0436\u0456\u0432\u043A\u0438."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acfc2fcd32cb23743bbb18b90f769d26, type: 3}

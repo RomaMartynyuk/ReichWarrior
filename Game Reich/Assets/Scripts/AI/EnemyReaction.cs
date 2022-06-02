@@ -12,9 +12,15 @@ public class EnemyReaction : MonoBehaviour
 
     protected float timeBtwShots;
     public float startTimeBtwShots;
+
+    [SerializeField] private float speed; 
+
+    //Reaction
+    private bool knowPlayer;
     void Start()
     {
         timeBtwShots = startTimeBtwShots;
+        knowPlayer = false;
     }
 
     void Update()
@@ -24,6 +30,7 @@ public class EnemyReaction : MonoBehaviour
             var direction = playerPos.position - transform.position;
             var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90f;
             transform.rotation = Quaternion.Euler(0, 0, angle);
+            knowPlayer = true;
             if(timeBtwShots <= 0)
             {
                 Shooting();
@@ -32,6 +39,16 @@ public class EnemyReaction : MonoBehaviour
             else
             {
                 timeBtwShots-=Time.deltaTime;
+            }
+        }
+        if (knowPlayer)
+        {
+            if(Vector2.Distance(playerPos.position, transform.position) > range)
+            {
+                var direction = playerPos.position - transform.position;
+                var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90f;
+                transform.rotation = Quaternion.Euler(0, 0, angle);
+                transform.position = Vector2.MoveTowards(transform.position, playerPos.position, speed * Time.deltaTime);
             }
         }
     }

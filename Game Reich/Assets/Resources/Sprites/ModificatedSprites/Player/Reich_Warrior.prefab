@@ -103,12 +103,11 @@ MonoBehaviour:
   FireSound: {fileID: 8300000, guid: 3061c7b9b32d894478e4126ccce25ca3, type: 3}
   ReloadSound: {fileID: 8300000, guid: 3c5c1d4d7b9307c458890a4beb12e4ae, type: 3}
   maxAmmo: 32
+  maxUsedAmmo: 0
   reloadTime: 3
   bulletForce: 40
   weaponName: MP-40
   weaponPic: {fileID: 2622985780375447886, guid: fa3c290c98b113d4b9fa7d625a0df31a, type: 3}
-  weaponInHand: {fileID: 0}
-  weaponEternal: {fileID: 0}
   ammoDisplay: {fileID: 0}
   maxAmmoDisplay: {fileID: 0}
   weaponNameDisplay: {fileID: 0}
@@ -468,12 +467,11 @@ MonoBehaviour:
   FireSound: {fileID: 8300000, guid: af66162561d2eed40ad49268cab318bb, type: 3}
   ReloadSound: {fileID: 8300000, guid: 3c5c1d4d7b9307c458890a4beb12e4ae, type: 3}
   maxAmmo: 5
+  maxUsedAmmo: 0
   reloadTime: 5
   bulletForce: 60
   weaponName: Mauser 98
   weaponPic: {fileID: -9172853007357520136, guid: 810bb5d194fe61d46849571c72c34625, type: 3}
-  weaponInHand: {fileID: 1133790795550105688}
-  weaponEternal: {fileID: 1133790796595301919}
   ammoDisplay: {fileID: 0}
   maxAmmoDisplay: {fileID: 0}
   weaponNameDisplay: {fileID: 0}
@@ -1108,12 +1106,11 @@ MonoBehaviour:
   FireSound: {fileID: 8300000, guid: 67d823e35f1c4d34789a4be8b3343b0a, type: 3}
   ReloadSound: {fileID: 8300000, guid: c37622e8604a25340a42bee7bd8c8b1c, type: 3}
   maxAmmo: 8
+  maxUsedAmmo: 0
   reloadTime: 3
   bulletForce: 30
   weaponName: Luger P08
   weaponPic: {fileID: -292644538179436036, guid: 9c557f14353993248931468f35e782cf, type: 3}
-  weaponInHand: {fileID: 0}
-  weaponEternal: {fileID: 0}
   ammoDisplay: {fileID: 0}
   maxAmmoDisplay: {fileID: 0}
   weaponNameDisplay: {fileID: 0}
@@ -1128,10 +1125,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1133790796844685461}
   - component: {fileID: 1133790796844685458}
-  - component: {fileID: 1133790796844685459}
   - component: {fileID: 1133790796844685456}
   - component: {fileID: 1133790796844685457}
   - component: {fileID: 1133790796844685545}
+  - component: {fileID: 8642861421776991708}
   m_Layer: 9
   m_Name: Reich_Warrior
   m_TagString: Player
@@ -1208,68 +1205,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &1133790796844685459
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1133790796844685470}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 0.6875, y: 0.8125}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.15510379, y: 0.18469559}
-      - {x: 0.14493057, y: 0.20192787}
-      - {x: 0.10937314, y: 0.20896079}
-      - {x: 0.0978993, y: 0.22087345}
-      - {x: 0.07825318, y: 0.21328725}
-      - {x: 0.053927794, y: 0.241429}
-      - {x: 0.031993125, y: 0.24126166}
-      - {x: 0.0010077991, y: 0.23795444}
-      - {x: -0.0116929, y: 0.23470898}
-      - {x: -0.03269534, y: 0.23121935}
-      - {x: -0.084885284, y: 0.21464698}
-      - {x: -0.10635452, y: 0.20624153}
-      - {x: -0.12322621, y: 0.21118575}
-      - {x: -0.2160934, y: 0.13373503}
-      - {x: -0.2788067, y: 0.06731847}
-      - {x: -0.31406757, y: 0.006642334}
-      - {x: -0.4070818, y: -0.07000231}
-      - {x: -0.42281598, y: -0.17207924}
-      - {x: -0.37526459, y: -0.26105055}
-      - {x: -0.25809303, y: -0.25221857}
-      - {x: -0.23582894, y: -0.25803283}
-      - {x: -0.22913273, y: -0.24414468}
-      - {x: -0.20339076, y: -0.28591782}
-      - {x: -0.17873722, y: -0.3710649}
-      - {x: -0.0147532895, y: -0.38390943}
-      - {x: 0.13160717, y: -0.3855671}
-      - {x: 0.19966297, y: -0.36518237}
-      - {x: 0.21713409, y: -0.3329078}
-      - {x: 0.20497015, y: -0.24141023}
-      - {x: 0.2556032, y: -0.26051748}
-      - {x: 0.37788928, y: -0.2570533}
-      - {x: 0.3932938, y: -0.18543807}
-      - {x: 0.39875484, y: -0.115703635}
-      - {x: 0.2955195, y: 0.07601537}
-      - {x: 0.22331148, y: 0.11750905}
-      - {x: 0.21112305, y: 0.1414363}
-      - {x: 0.18322204, y: 0.17762294}
 --- !u!50 &1133790796844685456
 Rigidbody2D:
   serializedVersion: 4
@@ -1309,6 +1244,8 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 0
   healthBar: {fileID: 0}
+  deadFab: {fileID: 0}
+  DeathScreen: {fileID: 0}
 --- !u!114 &1133790796844685545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1332,3 +1269,19 @@ MonoBehaviour:
   nameDisplay: {fileID: 0}
   ammoDisplay: {fileID: 0}
   ammoMax: {fileID: 0}
+--- !u!58 &8642861421776991708
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133790796844685470}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0927279}
+  serializedVersion: 2
+  m_Radius: 0.4072721
